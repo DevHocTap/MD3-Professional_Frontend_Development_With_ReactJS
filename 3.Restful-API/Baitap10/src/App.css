@@ -1,0 +1,45 @@
+.page {
+  max-width: 460px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.scores {
+  margin-top: 16px;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+.score-row {
+  margin-bottom: 8px;
+}
+
+.error {
+  color: #c00;
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+
+.warn {
+  color: #b26a00;
+  margin-top: 12px;
+}
+
+button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.page {
+  max-width: 560px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.field {
+  flex: 1;
+}
+
+.field input {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.row button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.actions button {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.error {
+  color: #c00;
+  font-size: 13px;
+  margin: 4px 0 0;
+}
