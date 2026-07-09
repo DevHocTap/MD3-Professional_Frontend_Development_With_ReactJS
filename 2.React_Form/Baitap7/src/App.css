@@ -1,0 +1,59 @@
+.page {
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolbar button {
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.skeleton {
+  display: block;
+  height: 14px;
+  width: 100%;
+  background: #e6e6e6;
+  border-radius: 3px;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.corner-spinner {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background: #333;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+}

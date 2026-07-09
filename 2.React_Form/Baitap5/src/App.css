@@ -1,0 +1,40 @@
+.dashboard {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+.filters button {
+  margin-right: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.filters button.active {
+  font-weight: bold;
+}
+
+.search {
+  margin-top: 10px;
+  padding: 4px;
+  width: 100%;
+}
+
+.status-bar {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.order-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-list li {
+  display: flex;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+}
