@@ -1,0 +1,10 @@
+.app {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+.weather {
+  font-size: 20px;
+  margin-top: 16px;
+}

@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Nguyen Van An",
+      "email": "an.nguyen@company.com",
+      "phone": "0901111111",
+      "address": "Ha Noi",
+      "department": "IT",
+      "position": "Developer",
+      "dateOfBirth": "1995-05-20",
+      "startDate": "2020-01-15",
+      "salary": 25000000,
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.app {
+  max-width: 750px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+button {
+  margin: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+pre {
+  background: #f4f4f4;
+  color: #222;
+  padding: 10px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.log {
+  border-left: 4px solid #c00;
+}

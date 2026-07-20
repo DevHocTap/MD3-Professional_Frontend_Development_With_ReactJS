@@ -1,0 +1,16 @@
+.app {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 6px 12px;
+}

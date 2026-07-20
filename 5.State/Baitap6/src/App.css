@@ -1,0 +1,10 @@
+.app {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+.app button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
